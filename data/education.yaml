@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────────────────────
+# EDUCATION — one entry per degree, plus a separate languages list.
+# ─────────────────────────────────────────────────────────────
+
+degrees:
+  - school: "University of Koblenz"
+    degree: "MSc Web and Data Science"
+    start: "Apr 2023"
+    end: "Current"
+    detail: "CGPA: 2.21 (German scale)"
+
+  - school: "Government Engineering College, Idukki"
+    degree: "B.Tech in Information Technology"
+    start: "Jul 2015"
+    end: "May 2020"
+    detail: "CGPA: 7.88 / 10"
+
+languages:
+  - name: "English"
+    level: "C1"
+  - name: "German"
+    level: "A1"

@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────────────────────
+# SITE — meta / theme settings. Safe to leave alone, but the
+# accent color and section order are easy to play with.
+# ─────────────────────────────────────────────────────────────
+
+browser_title: "Jeffy James — Portfolio"
+accent: "#7c5cff"      # primary accent color (hex)
+accent2: "#22d3ee"     # secondary gradient color (hex)
+
+# Controls which sections render and in what order.
+# Remove a line to hide that section entirely.
+sections:
+  - about
+  - experience
+  - projects
+  - skills
+  - education
+  - contact

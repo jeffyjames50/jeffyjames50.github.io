@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────
+# PROFILE — edit this file to update your basic info & links.
+# This is the only file you need to touch to update contact
+# details. Everything here shows up in the hero section, the
+# contact footer, and the browser tab.
+# ─────────────────────────────────────────────────────────────
+
+name: "Jeffy James"
+role: "Data Science & Web Engineering"
+tagline: "MSc student building data-driven products end to end — from backend APIs to ML pipelines to dashboards."
+
+location: "Koblenz, Germany"
+email: "jeffyjames50@gmail.com"
+phone: "+49 159 061 65010"
+
+# Paste your full profile URLs below (the ones in your resume were
+# hyperlinked but not visible as plain text — drop the real links in).
+social:
+  linkedin: "https://linkedin.com/in/your-handle"
+  github: "https://github.com/your-handle"
+  email: "mailto:jeffyjames50@gmail.com"
+
+summary: >
+  Technically skilled Data Science student with strong machine learning and
+  analytical skills, focused on building innovative, data-driven solutions
+  using Python, SQL, Java and modern web frameworks. Background as a
+  Systems Engineer shipping production backend features, now specializing
+  in applied ML, data analysis and full-stack development.
+
+# Short badges shown right under the hero title
+highlights:
+  - "2+ yrs backend engineering (Java / Spring Boot)"
+  - "MSc Web & Data Science, University of Koblenz"
+  - "English C1 · German A1"
+
+resume_file: "assets/Jeffy_James_CV.pdf" # optional: drop a PDF here and link it from the Download CV button

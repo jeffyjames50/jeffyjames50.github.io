@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────
+# EXPERIENCE — one entry per job. Order = display order (top first).
+# `bullets` accepts as many lines as you want.
+# ─────────────────────────────────────────────────────────────
+
+- company: "Tata Consultancy Services"
+  role: "Systems Engineer"
+  location: "Kochi, India"
+  start: "Feb 2021"
+  end: "Apr 2023"
+  bullets:
+    - "Enhanced functionalities of an e-commerce pharmacy platform by implementing new business logic, improving backend performance and code efficiency using Java and Spring Boot."
+    - "Developed data-driven solutions to optimize MySQL database queries and indexing strategies, leading to measurably improved performance."
+    - "Implemented automated testing with JUnit and Mockito, increasing test coverage to 80% to meet industry standards."
+    - "Resolved production issues by debugging and shipping efficient code fixes."
+    - "Worked on Business Rules, Export configurations, Workflows and Web UI in STIBO Systems (MDM)."
+    - "Participated in Agile ceremonies (daily stand-ups, sprint planning), ensuring timely delivery of project milestones."
+    - "Communicated technical solutions clearly across the development team and business stakeholders."
+  tech: ["Java", "Spring Boot", "MySQL", "JUnit", "Mockito", "STIBO Systems", "Agile/Scrum"]

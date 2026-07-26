@@ -1,0 +1,24 @@
+# ─────────────────────────────────────────────────────────────
+# SKILLS — grouped as categories, each with a list of tags.
+# ─────────────────────────────────────────────────────────────
+
+- category: "Languages"
+  items: ["Python", "Java", "SQL", "R", "JavaScript"]
+
+- category: "Data Science & ML"
+  items: ["Data Preprocessing", "Statistical Analysis", "Exploratory Data Analysis", "Machine Learning", "Pandas", "NumPy"]
+
+- category: "Frontend"
+  items: ["React", "HTML", "CSS", "JavaScript"]
+
+- category: "Backend & Frameworks"
+  items: ["Spring Boot", "Flask"]
+
+- category: "Databases"
+  items: ["MySQL", "MongoDB", "PostgreSQL", "SQL"]
+
+- category: "Data Visualization"
+  items: ["Power BI", "Tableau"]
+
+- category: "Tools & Practices"
+  items: ["Git", "Jira", "Postman", "Agile", "Scrum", "VS Code", "Jupyter Notebook"]

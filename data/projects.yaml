@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────
+# PROJECTS — one entry per project card.
+# `link` / `repo` are optional — leave as "" to hide the button.
+# `tags` show as small pills on the card.
+# ─────────────────────────────────────────────────────────────
+
+- title: "Bias Analysis in Collaborative Filtering Recommender Systems"
+  summary: >
+    Investigated demographic bias (age and gender) in recommender-system
+    predictions by reproducing experiments from a published study and
+    evaluating multiple recommendation algorithms on balanced vs.
+    imbalanced datasets.
+  bullets:
+    - "Preprocessed and analyzed a large ratings dataset to identify prediction disparities across user demographics."
+    - "Implemented and fine-tuned Matrix Factorization (PMF, BiasedMF) and k-Nearest Neighbors (kNN) models."
+    - "Evaluated performance using Mean Absolute Error (MAE) across balanced vs. imbalanced experimental setups."
+  tags: ["Python", "Java", "CF4J", "Machine Learning", "Pandas", "NumPy", "Statistics"]
+  repo: ""
+  link: ""
+
+- title: "Retail Sales Analysis Using SQL"
+  summary: >
+    Designed a relational database for retail sales data and used SQL to
+    uncover customer insights, sales trends and high-value transactions
+    for business decision-making.
+  bullets:
+    - "Designed and implemented a relational schema for retail sales analysis."
+    - "Cleaned and processed data to remove inconsistencies and null values, ensuring data integrity."
+    - "Wrote complex SQL queries covering customer demographics, category-wise sales, and peak sales periods."
+    - "Generated summary reports on sales trends and purchasing behavior."
+  tags: ["SQL", "PostgreSQL", "Data Cleaning", "BI", "Data Aggregation"]
+  repo: ""
+  link: ""
+
+- title: "Movie Review Submission Backend"
+  summary: >
+    A RESTful backend service for creating, retrieving and managing movie
+    reviews, built with a focus on clean API design and efficient NoSQL
+    data access.
+  bullets:
+    - "Designed and implemented RESTful APIs with Spring Boot for review CRUD operations."
+    - "Used MongoDB for flexible, schema-light storage of review data."
+    - "Handled persistence and service-layer integration via Spring Data MongoDB."
+  tags: ["Java", "Spring Boot", "MongoDB", "Postman", "Git"]
+  repo: ""
+  link: ""
