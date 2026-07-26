@@ -13,11 +13,15 @@ location: "Koblenz, Germany"
 email: "jeffyjames50@gmail.com"
 phone: "+49 159 061 65010"
 
-# Paste your full profile URLs below (the ones in your resume were
-# hyperlinked but not visible as plain text — drop the real links in).
+# Photo shown in the hero section. Defaults to your GitHub avatar;
+# swap the path for a local file in assets/ if you'd rather use a different photo.
+photo: "assets/avatar.jpg"
+
+# Paste your full profile URLs below (LinkedIn still needs your real URL —
+# it wasn't recoverable as plain text from the resume PDF).
 social:
   linkedin: "https://linkedin.com/in/your-handle"
-  github: "https://github.com/your-handle"
+  github: "https://github.com/jeffyjames50"
   email: "mailto:jeffyjames50@gmail.com"
 
 summary: >

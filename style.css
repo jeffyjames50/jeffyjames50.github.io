@@ -177,6 +177,18 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(20px, 6vw, 64px)
   justify-content: center;
   padding: 40px 0;
 }
+.hero-photo {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 22px;
+  padding: 4px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  box-shadow: var(--shadow);
+}
+.hero-photo[hidden] { display: none; }
+
 .hero-eyebrow {
   color: var(--text-faint);
   font-size: 0.9rem;

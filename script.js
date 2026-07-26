@@ -65,6 +65,14 @@ function toggleSections(allSections) {
 }
 
 function renderHero(profile) {
+  const photo = document.getElementById("heroPhoto");
+  if (profile.photo) {
+    photo.src = profile.photo;
+    photo.alt = profile.name ? `Photo of ${profile.name}` : "";
+  } else {
+    photo.hidden = true;
+  }
+
   document.getElementById("heroLocation").textContent = profile.location || "";
   document.getElementById("heroName").textContent = profile.name || "";
   document.getElementById("heroRole").textContent = profile.role || "";
