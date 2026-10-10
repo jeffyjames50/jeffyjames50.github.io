@@ -6,10 +6,10 @@
 # ─────────────────────────────────────────────────────────────
 
 name: "Jeffy James"
-role: "Data Science & Web Engineering"
-tagline: "MSc student building data-driven products end to end — from backend APIs to ML pipelines to dashboards."
+role: "Data Analytics & Engineering"
+tagline: "MSc student building data products end to end — ETL pipelines, forecasting models, BI dashboards and backend APIs."
 
-location: "Koblenz, Germany"
+location: "Kassel, Germany"
 email: "jeffyjames50@gmail.com"
 phone: "+49 159 061 65010"
 
@@ -17,24 +17,24 @@ phone: "+49 159 061 65010"
 # swap the path for a local file in assets/ if you'd rather use a different photo.
 photo: "assets/avatar.jpg"
 
-# Paste your full profile URLs below (LinkedIn still needs your real URL —
-# it wasn't recoverable as plain text from the resume PDF).
+# Paste your full profile URLs below.
 social:
-  linkedin: "https://linkedin.com/in/jeffy-james"
+  linkedin: "https://www.linkedin.com/in/jeffy-james"
   github: "https://github.com/jeffyjames50"
   email: "mailto:jeffyjames50@gmail.com"
 
 summary: >
-  Technically skilled Data Science student with strong machine learning and
-  analytical skills, focused on building innovative, data-driven solutions
-  using Python, SQL, Java and modern web frameworks. Background as a
-  Systems Engineer shipping production backend features, now specializing
-  in applied ML, data analysis and full-stack development.
+  MSc Web and Data Science student at the University of Koblenz and
+  working-student QA engineer at Mailbutler, with 2+ years of backend
+  engineering at Tata Consultancy Services. I build end-to-end data
+  products: SQL and Python ETL pipelines, forecasting models, Power BI and
+  Tableau dashboards, and Java / Spring Boot backends.
 
 # Short badges shown right under the hero title
 highlights:
-  - "2+ yrs backend engineering (Java / Spring Boot)"
+  - "Working student QA @ Mailbutler"
+  - "2+ yrs backend engineering at TCS"
   - "MSc Web & Data Science, University of Koblenz"
-  - "English C1 · German A1"
+  - "Microsoft Certified: Azure Fundamentals"
 
 resume_file: "assets/Jeffy_James_CV.pdf" # optional: drop a PDF here and link it from the Download CV button

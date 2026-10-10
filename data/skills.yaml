@@ -6,7 +6,10 @@
   items: ["Python", "Java", "SQL", "R", "JavaScript"]
 
 - category: "Data Science & ML"
-  items: ["Data Preprocessing", "Statistical Analysis", "Exploratory Data Analysis", "Machine Learning", "Pandas", "NumPy"]
+  items: ["Data Cleaning", "EDA", "Statistics", "A/B Testing", "Machine Learning", "Forecasting (Prophet)", "NLP (DistilBERT)", "Pandas", "NumPy", "Matplotlib", "Seaborn"]
+
+- category: "Data Engineering"
+  items: ["ETL Pipelines", "Data Validation & Profiling", "Dimensional Modeling", "Airflow", "dbt", "SQLAlchemy"]
 
 - category: "Frontend"
   items: ["React", "HTML", "CSS", "JavaScript"]
@@ -15,10 +18,10 @@
   items: ["Spring Boot", "Flask"]
 
 - category: "Databases"
-  items: ["MySQL", "MongoDB", "PostgreSQL", "SQL"]
+  items: ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
 
 - category: "Data Visualization"
-  items: ["Power BI", "Tableau"]
+  items: ["Power BI (DAX)", "Tableau", "Excel (Advanced)", "Dashboard Development", "Data Storytelling"]
 
 - category: "Tools & Practices"
-  items: ["Git", "Jira", "Postman", "Agile", "Scrum", "VS Code", "Jupyter Notebook"]
+  items: ["Git", "Jira", "Postman", "JUnit", "Mockito", "Azure (AZ-900)", "Agile", "Scrum", "VS Code", "Jupyter Notebook"]

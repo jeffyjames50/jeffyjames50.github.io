@@ -3,12 +3,25 @@
 # `bullets` accepts as many lines as you want.
 # ─────────────────────────────────────────────────────────────
 
+- company: "Mailbutler"
+  role: "Working Student QA Engineer"
+  location: "Remote, Germany"
+  start: "2025"
+  end: "Present"
+  bullets:
+    - "Conduct root cause analysis for Mail Tracking bugs."
+    - "Test pull requests for new features and regressions, and run continuous beta testing."
+    - "Log and track issues in Jira through to resolution."
+    - "Coordinate between engineers and users to resolve issues."
+  tech: ["QA", "Regression Testing", "Root Cause Analysis", "Jira"]
+
 - company: "Tata Consultancy Services"
   role: "Systems Engineer"
   location: "Kochi, India"
   start: "Feb 2021"
   end: "Apr 2023"
   bullets:
+    - "Implemented business rules controlling refills of restricted medicines for an online pharmacy platform (client: Walgreens Boots Alliance)."
     - "Enhanced functionalities of an e-commerce pharmacy platform by implementing new business logic, improving backend performance and code efficiency using Java and Spring Boot."
     - "Developed data-driven solutions to optimize MySQL database queries and indexing strategies, leading to measurably improved performance."
     - "Implemented automated testing with JUnit and Mockito, increasing test coverage to 80% to meet industry standards."

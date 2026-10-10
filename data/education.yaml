@@ -7,11 +7,11 @@ degrees:
     degree: "MSc Web and Data Science"
     start: "Apr 2023"
     end: "Current"
-    detail: "CGPA: 2.21 (German scale)"
+    detail: "GPA: 2.3 (German scale) · Machine Learning, Web & Data-Intensive Systems, Big Data"
 
   - school: "Government Engineering College, Idukki"
     degree: "B.Tech in Information Technology"
-    start: "Jul 2015"
+    start: "2016"
     end: "May 2020"
     detail: "CGPA: 7.88 / 10"
 

@@ -4,43 +4,94 @@
 # `tags` show as small pills on the card.
 # ─────────────────────────────────────────────────────────────
 
+- title: "E-commerce Data Platform"
+  summary: >
+    Production-style analytics engineering project that turns raw e-commerce data into business insights, from ingestion to dashboard.
+  bullets:
+    - "Modular, config-driven Python ETL loading raw CSVs into a PostgreSQL warehouse."
+    - "Built-in data validation, automated profiling with JSON reports, logging and refresh-mode ingestion."
+    - "Airflow orchestration, dbt transformations and a Power BI dashboard layer in progress."
+  tags: ["Python", "PostgreSQL", "SQLAlchemy", "Pandas", "Airflow", "dbt", "Power BI"]
+  repo: "https://github.com/jeffyjames50/ecommerce-data-platform"
+  link: ""
+
+- title: "FMCG Sales Analytics & Revenue Forecasting"
+  summary: >
+    End-to-end BI solution analysing FMCG sales across products, stores and regions and forecasting future revenue.
+  bullets:
+    - "SQL analysis in PostgreSQL of 381K+ in revenue by category, region, product and store."
+    - "Time-series revenue forecast built in Python with Prophet."
+    - "Interactive Power BI dashboard with executive KPIs and trend views."
+  tags: ["SQL", "PostgreSQL", "Python", "Prophet", "Power BI"]
+  repo: "https://github.com/jeffyjames50/fmcg-sales-analytics-forecasting"
+  link: ""
+
+- title: "LLM Requirements Classifier"
+  summary: >
+    Fine-tuned DistilBERT to classify software requirement statements as functional or non-functional.
+  bullets:
+    - "Custom training loop with epoch-wise metric logging and plots."
+    - "CLI batch inference and an interactive Streamlit demo."
+  tags: ["Python", "Hugging Face", "DistilBERT", "NLP", "Streamlit"]
+  repo: "https://github.com/jeffyjames50/llm-requirements-classifier"
+  link: ""
+
 - title: "Bias Analysis in Collaborative Filtering Recommender Systems"
   summary: >
-    Investigated demographic bias (age and gender) in recommender-system
-    predictions by reproducing experiments from a published study and
-    evaluating multiple recommendation algorithms on balanced vs.
-    imbalanced datasets.
+    Investigated demographic bias (age and gender) in recommender-system predictions by reproducing experiments from a published MovieLens study.
   bullets:
-    - "Preprocessed and analyzed a large ratings dataset to identify prediction disparities across user demographics."
-    - "Implemented and fine-tuned Matrix Factorization (PMF, BiasedMF) and k-Nearest Neighbors (kNN) models."
-    - "Evaluated performance using Mean Absolute Error (MAE) across balanced vs. imbalanced experimental setups."
-  tags: ["Python", "Java", "CF4J", "Machine Learning", "Pandas", "NumPy", "Statistics"]
-  repo: ""
+    - "Preprocessed and analysed a large ratings dataset to identify prediction disparities across user demographics."
+    - "Implemented and fine-tuned Matrix Factorization (PMF, BiasedMF) and kNN models."
+    - "Evaluated MAE across balanced vs. imbalanced experimental setups."
+  tags: ["Python", "Java", "CF4J", "Machine Learning", "Pandas", "Statistics"]
+  repo: "https://github.com/jeffyjames50/Research_lab"
+  link: ""
+
+- title: "E-Commerce Sales & Customer Behavior Dashboard"
+  summary: >
+    Four-page Power BI dashboard analysing ~10K Superstore orders: sales trends, customer segments, product performance and forecasts.
+  bullets:
+    - "KPI cards and DAX measures for sales, profit, margin and average order value."
+    - "Customer and product drill-downs with slicers and conditional formatting."
+    - "6-month sales forecast using the Power BI analytics pane."
+  tags: ["Power BI", "DAX", "Data Modeling", "Forecasting"]
+  repo: "https://github.com/jeffyjames50/E-Commerce_Sales_Customer_Behaviour"
   link: ""
 
 - title: "Retail Sales Analysis Using SQL"
   summary: >
-    Designed a relational database for retail sales data and used SQL to
-    uncover customer insights, sales trends and high-value transactions
-    for business decision-making.
+    Relational database for retail sales data, analysed with SQL for customer insights, sales trends and high-value transactions.
   bullets:
-    - "Designed and implemented a relational schema for retail sales analysis."
-    - "Cleaned and processed data to remove inconsistencies and null values, ensuring data integrity."
-    - "Wrote complex SQL queries covering customer demographics, category-wise sales, and peak sales periods."
-    - "Generated summary reports on sales trends and purchasing behavior."
-  tags: ["SQL", "PostgreSQL", "Data Cleaning", "BI", "Data Aggregation"]
-  repo: ""
+    - "Designed the schema and cleaned inconsistent and null data."
+    - "Wrote queries covering customer demographics, category-wise sales and peak sales periods."
+  tags: ["SQL", "PostgreSQL", "Data Cleaning"]
+  repo: "https://github.com/jeffyjames50/SQL_retail_sales"
+  link: ""
+
+- title: "Amazon Product Analytics"
+  summary: >
+    SQL analysis of Amazon product sales, reviews and pricing trends.
+  bullets:
+    - "Best-sellers per category, average ratings, discount trends and high-rated/low-sales outliers."
+  tags: ["SQL", "PostgreSQL", "Tableau"]
+  repo: "https://github.com/jeffyjames50/amazon-product-analytics"
   link: ""
 
 - title: "Movie Review Submission Backend"
   summary: >
-    A RESTful backend service for creating, retrieving and managing movie
-    reviews, built with a focus on clean API design and efficient NoSQL
-    data access.
+    RESTful backend for creating, retrieving and managing movie reviews.
   bullets:
-    - "Designed and implemented RESTful APIs with Spring Boot for review CRUD operations."
-    - "Used MongoDB for flexible, schema-light storage of review data."
-    - "Handled persistence and service-layer integration via Spring Data MongoDB."
-  tags: ["Java", "Spring Boot", "MongoDB", "Postman", "Git"]
-  repo: ""
+    - "Spring Boot REST APIs for review CRUD operations."
+    - "MongoDB persistence via Spring Data MongoDB."
+  tags: ["Java", "Spring Boot", "MongoDB", "Postman"]
+  repo: "https://github.com/jeffyjames50/Movies"
+  link: ""
+
+- title: "Book Library Management API"
+  summary: >
+    Flask API for managing a library's book inventory with full CRUD and flexible search.
+  bullets:
+    - "Search by title, author, ISBN or genre; bulk inserts; stock updates."
+  tags: ["Python", "Flask", "MongoDB", "PyMongo"]
+  repo: "https://github.com/jeffyjames50/FLASK_API"
   link: ""
